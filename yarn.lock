@@ -1559,9 +1559,13 @@ form-data@~2.3.1:
     combined-stream "1.0.6"
     mime-types "^2.1.12"
 
-fp-ts@^1.0.0, fp-ts@^1.6.2:
+fp-ts@^1.0.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-1.12.0.tgz#d333310e4ac104cdcb6bea47908e381bb09978e7"
+
+fp-ts@^2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.9.1.tgz#24557f66f9221f8a1922fce6cbe2b8ea6d0f3929"
 
 fragment-cache@^0.2.1:
   version "0.2.1"
