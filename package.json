@@ -46,7 +46,7 @@
     "typestrict": "^1.0.0"
   },
   "dependencies": {
-    "fp-ts": "^1.6.2",
+    "fp-ts": "^2.9.5",
     "io-ts": "^1.4.2",
     "json-set-map": "^1.0.2",
     "validator": "^10.1.0"
