@@ -1,0 +1,36 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: fp-ts
+    versions:
+    - 2.10.0
+    - 2.10.4
+    - 2.9.3
+    - 2.9.4
+    - 2.9.5
+  - dependency-name: "@types/node-fetch"
+    versions:
+    - 2.5.8
+    - 2.5.9
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.20
+    - 26.0.21
+    - 26.0.22
+  - dependency-name: danger
+    versions:
+    - 10.6.1
+    - 10.6.2
+    - 10.6.3
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
